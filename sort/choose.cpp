@@ -12,9 +12,7 @@ void choose_sort(vector<int>& vec)
 		for (int j = i + 1; j < len; j++)
 		{
 			if (vec[j] < vec[min_index])
-			{
 				min_index = j;
-			}
 		}
 		int temp = vec[i];
 		vec[i] = vec[min_index];
