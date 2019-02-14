@@ -13,9 +13,7 @@ void shell_sort(vector<int>& vec)
 			int temp = vec[i];
 			int j = i - gap;
 			for (; j >= 0 && vec[j] > temp; j -= gap)
-			{
 				vec[j + gap] = vec[j];
-			}
 			vec[j + gap] = temp;
 		}
 	}
