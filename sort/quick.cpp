@@ -14,14 +14,10 @@ void quick_sort(vector<int>& vec, int beg, int end)
 	while (first < last)
 	{
 		while (first < last && vec[first] <= key)
-		{
 			first++;
-		}
 		vec[last] = vec[first];
 		while (first < last && vec[last] >= key)
-		{
 			last--;
-		}
 		vec[first] = vec[last];
 	}
 	vec[first] = key;
