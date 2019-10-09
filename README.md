@@ -1,3 +1,3 @@
-# cpp
+# Algorithms
 
 Recorde Basic Algorithms
