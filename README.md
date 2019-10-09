@@ -1,3 +1,3 @@
-# fate-stay-night
+# cpp
 
 recorde basic algorithms
